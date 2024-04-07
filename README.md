@@ -2,6 +2,8 @@
 
 ### This repository contains code for cleaning, analyzing, and training machine learning models on the Enron Email Dataset. The dataset comprises over 500k emails exchanged among Enron employees and management.
 
+### Link of starting dataset - https://www.kaggle.com/datasets/wcukierski/enron-email-dataset
+
 ## Data Cleaning
 ### The initial exploration revealed that email details such as time, sender, and receiver were stored in one column. To address this, we parsed the emails using Python's email library and extracted relevant details into separate columns. This was achieved using the provided code snippet.
 
